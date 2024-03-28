@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(255, 204, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inputs{
+    background-color: rgb(255, 166, 2);
+    padding: 20px;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    color: whitesmoke;
+
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+
+.date input{
+    border-radius: 6px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid orange;
+    font-size: 16px;
+}
+.date button{
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    background:  rgb(255, 61, 61);
+    color: white;
+    font-size: 15px;
+}
+.boxs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+.box{
+    background: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.itme{
+    padding: 10px;
+    background: rgb(255, 43, 43);
+    margin: 10px;
+    
+}
+
